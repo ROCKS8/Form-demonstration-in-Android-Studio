@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginStart="5dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="18dp"
+            android:text="Enrollment Id"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/eId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:hint="Enrollment Id:"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:layout_column="2"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="18dp"
+            android:text="First Name:"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <EditText
+            android:id="@+id/fn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:hint="First Name"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="18dp"
+            android:layout_marginTop="8dp"
+            android:text="Last Name:"
+            />
+
+        <EditText
+            android:id="@+id/ln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:hint="Last Name"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="18dp"
+            android:text="Gender:"
+            android:layout_marginTop="8dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_marginStart="45dp"
+            >
+
+        <RadioButton
+            android:id="@+id/maleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="18dp"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/femaleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="18dp"
+            android:layout_marginTop="8dp"
+
+            />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:hint="Gender"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="18dp"
+            android:text="Contact Number:"
+            android:layout_marginTop="8dp"
+
+            />
+
+        <EditText
+            android:id="@+id/cn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:hint="Contact Number"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+    </TableRow>
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            />
+
+
+</TableLayout>
